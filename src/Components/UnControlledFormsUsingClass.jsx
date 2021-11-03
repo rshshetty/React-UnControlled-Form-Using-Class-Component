@@ -9,8 +9,8 @@ class UnControlledFormsUsingClass extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     console.log("ok");
-    let username = this.usernameRef.current.value;
-    let password = this.passwordRef.current.value;
+    let username = this.usernameRef.current;
+    let password = this.passwordRef.current;
     console.log({ username, password });
   };
 
